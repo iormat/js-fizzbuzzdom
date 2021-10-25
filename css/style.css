@@ -19,3 +19,37 @@ header {
 }
 
 /* MAIN RULES -------------------- */
+#block_container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* blocks rules */
+.square {
+    margin: 15px;
+    min-width: 80px;
+    width: calc(100% / 7 - 30px);
+    background-color: #3F87AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:after {
+    content: "";
+    padding-top: 100%;
+}
+
+.divFizz {
+    background-color: #62D3A4;
+}
+
+.divBuzz {
+    background-color: #F8D377;
+}
+
+.fizzBuzz{
+    background-color: #DE5471;
+}
